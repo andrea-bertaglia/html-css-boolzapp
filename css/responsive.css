@@ -14,7 +14,6 @@
         height: 100%;
     }
 
-
     /* MAIN */
     #contacts.col {
         width: 15%; 
@@ -45,6 +44,18 @@
 
 /* Mobile */
 @media screen and (max-width: 430px) {
-
+    /* Contacts Section */
+    #contacts.col {
+       display: none; 
+    }
     
+    /* Chat Section */
+    /* ? Main chat */
+    #chat.col {
+        width: 100%;
+    }
+
+    .chat-container {
+        padding: 1.5em;
+    }
 }
