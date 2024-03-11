@@ -8,8 +8,39 @@
 
 /* Tablet */
 @media screen and (max-width: 768px) {
+    /* COMMON */
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* MAIN */
+    #contacts.col {
+        width: 15%; 
+    }
     
-    
+    #chat.col {
+        width: 85%;
+    }
+
+    .avatar-name, 
+    .avatar-last-access {
+        display: none;
+    }
+
+    /* Contacts Section */
+    /* ? Contacts header */
+
+    /* ? Alert contacts */
+    #contacts .alert {
+        display: none;
+    }    
+
+    /* ? Find contacts */
+    #contacts .find-bar {
+        display: none;
+    }    
 }
 
 /* Mobile */
