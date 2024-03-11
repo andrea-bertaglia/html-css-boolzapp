@@ -17,10 +17,6 @@ img {
     max-width: 100%;
 }
 
-body {
-    background-color: lightslategray;
-}
-
 /* COMMON */
 .wrapper {
     width: 100%;
@@ -28,9 +24,17 @@ body {
     position: relative;
     align-items: center;
     justify-content: center;
+    background-color: #009689;
+}
 
-    /* debug */
-    background-color: lightgreen;
+.second-bg {
+    background-color: #d8dbd6;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .container {
@@ -38,18 +42,14 @@ body {
     height: 95%;
     margin: 0 auto;
     overflow-y: hidden;
+    z-index: 2;
 
     /* debug */
-    background-color: lightblue;
     border: 1px solid black;
 }
 
 .flex {
     display: flex;
-}
-
-.wrap {
-    flex-wrap: wrap;
 }
 
 /* Typography */
@@ -59,5 +59,20 @@ body {
 /* HEADER */
 
 /* MAIN */
+#contacts.col {
+    width: 30%;
+
+    /* debug */
+    background-color: lightpink;
+    border: 2px solid red;
+}
+
+#chat.col {
+    width: 70%;
+
+    /* debug */
+    background-color: lightgoldenrodyellow;
+    border: 2px solid blue;
+}
 
 /* FOOTER */
