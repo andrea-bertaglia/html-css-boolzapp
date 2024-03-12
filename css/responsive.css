@@ -23,16 +23,21 @@
         width: calc(100% - 100px);
     }
 
-    #contacts.col {
-        width: 15%; 
-    }
-    
-    #chat.col {
-        width: 85%;
+    .avatar-name, 
+    .last-access {
+        display: none;
     }
 
-    .avatar-name, 
-    .avatar-last-access {
+    #contacts .contact-item {
+        justify-content: center;
+    }
+
+    #contacts .header {
+        justify-content: center;
+        padding: .5em;
+    }
+
+    #contacts .header ul {
         display: none;
     }
 
