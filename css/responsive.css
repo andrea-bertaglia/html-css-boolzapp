@@ -42,8 +42,6 @@
     }
 
     /* LEFT COL - Contacts Section */
-    /* ? Contacts header */
-
     /* ? Alert contacts */
     #contacts .alert {
         display: none;
@@ -53,6 +51,16 @@
     #contacts .search-bar {
         display: none;
     }    
+
+    /* RIGHT COL - Chat Section */
+    /* ? Contacts header */
+    #chat .avatar-name {
+        font-size: .8em;
+    }
+
+    #chat .contact-item {
+        width: 70%;
+    }
 }
 
 /* ! Mobile */
@@ -68,6 +76,11 @@
     }
 
     /* RIGHT COL - Chat Section */
+    /* ? Chat Header */
+    #chat ul {
+    display: none;
+}
+
     /* ? Main chat */
     .chat-container {
         padding: 1.5em;

@@ -221,7 +221,7 @@ ul {
 }
 
 #chat .contact-item {
-    width: 60%;
+    width: 80%;
 }
 
 /* ? Main chat */
@@ -281,7 +281,6 @@ ul {
     padding: 10px;
     align-items: center;
 }
-
 
 #chat .text-chat i {
     color: var(--most-dark-grey);
