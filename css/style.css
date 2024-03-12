@@ -213,6 +213,10 @@ ul {
     align-self: self-start;
 }
 
+#contacts .contact-item:hover {
+    background-color: var(--light-grey);
+}
+
 /* RIGHT COL - Chat Section */
 /* ? Chat Header */
 #chat .header span {
@@ -256,6 +260,24 @@ ul {
 #chat .message-info i {
     font-size: .7rem;
 }
+
+#chat i.fa-chevron-down:hover {
+    cursor: pointer;
+}
+
+/* #chat .hidden-menu {
+    width: 200px;
+    height: 100px;
+    background-color: var(--white);
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    box-shadow: 3px 3px 3px 0px #000000;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    color: #000000;
+} */
 
 #chat .message-time {
     align-self: flex-end;
