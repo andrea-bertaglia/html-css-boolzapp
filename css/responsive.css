@@ -6,7 +6,8 @@
     TODO  Mobile 430px
     TODO ***************************/
 
-/* Tablet */
+
+/* !Tablet */
 @media screen and (max-width: 768px) {
     /* COMMON */
     .container {
@@ -14,7 +15,14 @@
         height: 100%;
     }
 
-    /* MAIN */
+    .left-col {
+        width: 100px;
+    }
+
+    .right-col {
+        width: calc(100% - 100px);
+    }
+
     #contacts.col {
         width: 15%; 
     }
@@ -28,7 +36,7 @@
         display: none;
     }
 
-    /* Contacts Section */
+    /* LEFT COL - Contacts Section */
     /* ? Contacts header */
 
     /* ? Alert contacts */
@@ -42,14 +50,19 @@
     }    
 }
 
-/* Mobile */
+/* ! Mobile */
 @media screen and (max-width: 430px) {
-    /* Contacts Section */
-    #contacts.col {
-       display: none; 
+    /* COMMON */
+    .left-col {
+        width: 0%;
+
     }
-    
-    /* Chat Section */
+
+    .right-col {
+        width: 100%;
+    }
+
+    /* RIGHT COL - Chat Section */
     /* ? Main chat */
     #chat.col {
         width: 100%;
