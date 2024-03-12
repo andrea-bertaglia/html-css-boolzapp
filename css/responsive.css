@@ -69,10 +69,6 @@
 
     /* RIGHT COL - Chat Section */
     /* ? Main chat */
-    #chat.col {
-        width: 100%;
-    }
-
     .chat-container {
         padding: 1.5em;
     }

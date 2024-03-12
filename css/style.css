@@ -20,6 +20,10 @@ img {
     max-width: 100%;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* CUSTOM PROPERTIES */
 :root {
     --light-grey: #eaeaea;
@@ -225,20 +229,47 @@ ul {
     width: 100%;
     height: calc(100% - 150px);
     flex-grow: 1;
-    padding: 3em;
-    gap: 1em;
-    font-size: .8rem;
+    padding: 2em 4em;
+    gap: 10px;
     overflow-y: scroll;
     background-image: url(../img/mine.jpg);
 }
 
-#chat .send-chat {
-    max-width: 50%;
+#chat .message {
+    padding: 1em .5em .5em .5em;
+    border-radius: 10px;
+    font-size: .9rem;
+}
+
+#chat .message-text {
+    width: 90%;
+    flex-grow: 1;
+    padding-bottom: 30px;
+}
+
+#chat .message-info {
+    width: 5%;
+    justify-content: right;
+    color: var(--dark-grey);
+}
+
+#chat .message-info i {
+    font-size: .7rem;
+}
+
+#chat .message-time {
+    align-self: flex-end;
+    font-size: .5rem;
+}
+
+#chat .send {
+    max-width: 75%;
+    transform: translate(35%);
     background-color: var(--green);
 }
 
-#chat .received-chat {
-    max-width: 50%;
+#chat .received {
+    max-width: 75%;
     background-color: var(--white);
 }
 
