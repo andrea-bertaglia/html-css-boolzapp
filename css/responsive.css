@@ -50,7 +50,7 @@
     }    
 
     /* ? Find contacts */
-    #contacts .find-bar {
+    #contacts .search-bar {
         display: none;
     }    
 }
