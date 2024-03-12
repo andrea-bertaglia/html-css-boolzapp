@@ -23,7 +23,7 @@
         width: calc(100% - 100px);
     }
 
-    .avatar-name, 
+    #contacts .avatar-name, 
     .last-access {
         display: none;
     }

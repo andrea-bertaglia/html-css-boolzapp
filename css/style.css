@@ -24,6 +24,7 @@ img {
 :root {
     --light-grey: #eaeaea;
     --dark-grey: #b1b1b1;
+    --most-dark-grey: #676666;
     --light-blue: #8edbfc;
     --white: #ffffff;
     --green: #d5faba;
@@ -64,7 +65,9 @@ img {
     width: 100%;
     height: 80px;
     background-color: var(--light-grey);
-    padding: 5px;
+    padding: .5em 1em .5em .5em;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .left-col {
@@ -80,7 +83,6 @@ img {
 .contact-item {
     width: 100%;
     height: 70px;
-    padding: .5em;
     align-items: center;
     justify-content: space-between;
 }
@@ -106,23 +108,20 @@ img {
     padding-top: 5px;
 }
 
-/* LEFT COL - Contacts Section */
-/* ? Contacts header */
-#contacts header {
-    padding: .5em 1em .5em .5em;
-    border-right: 1px solid var(--dark-grey);
-    align-items: center;
-    justify-content: space-between;
-}
-
-#contacts button {
+button {
     border: 0;
     color: var(--dark-grey);
     font-size: 1.5rem;
 }
 
-#contacts ul {
+ul {
     gap: 20px;
+}
+
+/* LEFT COL - Contacts Section */
+/* ? Contacts header */
+#contacts header {
+    border-right: 1px solid var(--dark-grey);
 }
 
 /* ? Alert contacts */
@@ -159,7 +158,7 @@ img {
 
 #contacts .alert-text h6 {
     text-decoration: underline;
-    color: #676666;
+    color: var(--most-dark-grey);
 
 }
 
@@ -200,6 +199,7 @@ img {
 
 #contacts .contact-item {
     height: 80px;
+    padding: .5em;
     border-bottom: 1px solid var(--light-grey);
 }
 
@@ -211,8 +211,13 @@ img {
 
 /* RIGHT COL - Chat Section */
 /* ? Chat Header */
+#chat .header span {
+    color: var(--most-dark-grey);
+    padding-top: 3px;
+}
+
 #chat .contact-item {
-    width: 40%;
+    width: 60%;
 }
 
 /* ? Main chat */
